@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* HEADER */
+.navbar {
+	margin-bottom: 0;
+}
+
+.textoBlanco {
+	color: #FFFFFF;
+}
+
+.block-sm {
+	display: block;
+}
+
+.jumbotron {
+	background: #428bca;
+	color: #fff;
+	padding: 20px 0;	
+}
+
+/*   POST    */
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+
+.post .post-title a{
+	color: #333;
+}
+
+.post .thumb {
+	margin-right: 10px;
+	min-width: 305px;
+}
+
+.post {
+	width: 100%;
+}
+
+.thumb img {
+	width: 300px;
+	height: 300px;
+}
+
+.post .contenedor-botones {
+	width: 100%;
+}
+
+.star{
+	color: #FFC300;
+}
+
+
+.social {
+	/*Fixed hace que se queden pegados en pantall*/
+	position: fixed;
+	left: 0;
+	top: 200px;
+	/*para que no lo superponga nada*/
+	z-index: 2000;
+}
+
+.socual ul {
+	list-style: none;
+}
+
+.social ul li a {
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook {background: #3b5998;}
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-google {background: #d95232;}
+.social ul li .icon-pinterest {background: #ae181f;}
+.social ul li .icon-mail {background: #666666;}
+
+.social ul li a:hover {
+	padding: 10px 30px;
+	background: #000;
+}
+
+.juegos{
+	margin-bottom: 20px;
+}
+
+.juegos article{
+	margin-bottom: 20px;
+}
+
+#mapaPequeno{
+	display: none;
+}
+/* Media Querie  */
+@media screen and (max-width: 1400px) {
+	#down-view {
+		width: 70%;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+	#down-view {
+		width: 65%;
+	}	
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	.post .thumb {		
+		min-width: 205px;
+		margin-bottom: 20px;
+		
+	}
+
+	.thumb img {
+		margin-top: 25px;
+		width: 200px;
+		height: 200px;	
+			
+	}
+	#mapaGrande {
+		display: none;
+	}
+	#mapaPequeno{
+		display: inline-block;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	.post .thumb {		
+		width: 100%;
+	}
+
+	.thumb img {
+		margin-left: 10%;		
+	}
+}
+
