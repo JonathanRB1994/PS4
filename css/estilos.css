@@ -99,6 +99,17 @@
 	background: #000;
 }
 
+.social ul li a:hover > .socialface {
+	display: inline-block;
+	padding-left: 7px;
+}
+
+.socialface{
+	display: none;	
+}
+
+
+
 .juegos{
 	margin-bottom: 20px;
 }
