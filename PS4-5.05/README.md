@@ -1,3 +1,6 @@
+Descargado del github: https://github.com/Cryptogenic/PS4-5.05-Kernel-Exploit
+De: SpecterDev
+
 # PS4 5.05 Kernel Exploit
 ---
 ## Summary
